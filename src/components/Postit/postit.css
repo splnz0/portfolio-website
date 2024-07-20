@@ -1,0 +1,63 @@
+.postit{
+    overflow:hidden;
+    position:relative;
+    width:300px;
+    height:300px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    display:flex;
+    flex-direction:column;
+    margin:15px
+  
+  }
+  .corner{
+    width:0px;
+    height:0px;
+    border-style:solid;
+    border-width:20px;
+    background-clip:border-box;
+  }
+  .postit-text{
+    margin:10px;
+    flex:9;
+  }
+  .postit-sender{
+    margin:10px;
+    flex:1;
+    text-align:right;
+  }
+  .postit-color0{
+    background-color:#ffe49e;
+  }
+  .corner-color0{
+    border-color:white #f7bf2f #f7bf2f white;
+  }
+  .postit-color1{
+    background-color:#ffa19e;
+  }
+  .corner-color1{
+    border-color:white #f9332d #f9332d white;
+  }
+  .postit-color2{
+    background-color:#9effb9;
+  }
+  .corner-color2{
+    border-color:white #2df966 #2df966 white;
+  }
+  .postit-color3{
+    background-color:#e69fff;
+  }
+  .corner-color3{
+    border-color:white #c42ef9 #c42ef9 white;
+  }
+  .postit-color4{
+    background-color:#9ff6ff;
+  }
+  .corner-color4{
+    border-color:white #2ee7f9 #2ee7f9 white;
+  }
+  .postit-color5{
+    background-color:#ffd69f;
+  }
+  .corner-color5{
+    border-color:white #f9a22e #f9a22e white;
+  }
