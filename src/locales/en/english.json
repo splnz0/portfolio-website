@@ -1,6 +1,20 @@
 {"translation":
     {
         "hello":"Hello User",
-        "language":"English"
+        "language":"English",
+        "create postit":"Create Post-it",
+        "abort":"Abort",
+        "save postit":"Save Post-it",
+        "postit info":"Here you can create your own Post-it",
+        "your name":"Your name",
+        "your message":"Your message",
+        "your color":"Choose a color",
+        "preview":"Preview",
+        "yellow":"Yellow",
+        "red":"Red",
+        "green":"Green",
+        "purple":"Purple",
+        "blue":"Blue",
+        "orange":"Orange"
     }
 }

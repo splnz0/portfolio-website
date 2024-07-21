@@ -1,12 +1,12 @@
 import "./postit.css"
 
 interface PostitProps{
-    text:string;
+    message:string;
     sender:string;
     color:number;
 }
 
-const Postit = ({text,sender,color}:PostitProps) => {
+const Postit = ({message: text,sender,color}:PostitProps) => {
   return (
     <div className={`postit postit-color${color}`}>
         <div className={`corner corner-color${color}`}>
